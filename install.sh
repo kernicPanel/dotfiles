@@ -1,3 +1,5 @@
+git clone git@github.com:kernicPanel/dotfiles.git .dotfiles;
+cd .dotfiles;
 git submodule update --init;
 
 cd ~;
