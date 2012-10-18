@@ -1,3 +1,5 @@
+git submodule update --init;
+
 cd ~;
 pwd;
 echo "\033[0;36m-- SymLinking vim --\033[0m"
