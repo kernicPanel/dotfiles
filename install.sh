@@ -1,3 +1,4 @@
+cd ~;
 git clone git@github.com:kernicPanel/dotfiles.git .dotfiles;
 cd .dotfiles;
 git submodule update --init;
@@ -11,5 +12,3 @@ echo "";
 echo "\033[0;36m-- SymLinking zsh --\033[0m"
 ~/.dotfiles/install-oh-my-zsh.sh;
 echo "";
-
-cd -;
